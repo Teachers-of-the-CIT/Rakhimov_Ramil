@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\ramil\source\repos\DemoRakhimov4432\DemoRakhimov4432\obj\Debug\
+D:\ramil\OneDrive\Рабочий стол\РахимовРамиль4432\Rakhimov_Ramil\DemoRakhimov4432\DemoRakhimov4432\obj\Debug\
 DemoRakhimov4432
 none
 false
 DEBUG;TRACE
-C:\Users\ramil\source\repos\DemoRakhimov4432\DemoRakhimov4432\App.xaml
-1-410445921
+D:\ramil\OneDrive\Рабочий стол\РахимовРамиль4432\Rakhimov_Ramil\DemoRakhimov4432\DemoRakhimov4432\App.xaml
+4658897392
 
-6198315068
-13-1505183044
-Windows\StartWindow.xaml;
+182096340977
+18-2139252995
+Windows\AdminWindow.xaml;Windows\ClientWindow.xaml;Windows\ManagerWindow.xaml;Windows\StartWindow.xaml;
 
 True
 
