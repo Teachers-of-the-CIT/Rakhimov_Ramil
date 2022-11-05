@@ -1,0 +1,47 @@
+﻿<Window x:Class="DemoRakhimov4432.StartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoRakhimov4432"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="450" Width="800" MinHeight="450" MinWidth="800" Icon="/Resources/icon.ico">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="2*"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="1" Grid.Row="1" Background="#B3F4E9">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="FontFamily" Value="Candara"/>
+                </Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Margin" Value="5,2,5,2"/>
+                    <Setter Property="FontFamily" Value="Candara"/>
+                </Style>
+            </Grid.Resources>
+        <TextBlock TextAlignment="Center" Text="Авторизация"/>
+        <TextBlock Grid.Row="1" TextAlignment="Left" Text="Логин"/>
+        <TextBox Name="txtLogin" Grid.Row="2" TextAlignment="Left"/>
+        <TextBlock Grid.Row="3" TextAlignment="Left" Text="Пароль"/>
+        <PasswordBox Grid.Row="4" Name="txtPassword"/>
+            <Button Grid.Row="5" FontFamily="Candara" Content="Войти" Margin="10" Click="ButtonSignIn_Click" Background="#A5E887"/>
+        </Grid>
+    </Grid>
+</Window>

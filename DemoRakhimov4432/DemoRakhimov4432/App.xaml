@@ -1,0 +1,9 @@
+﻿<Application x:Class="DemoRakhimov4432.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DemoRakhimov4432"
+             StartupUri="Windows/StartWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
